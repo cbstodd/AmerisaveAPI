@@ -1,5 +1,5 @@
-import express from '../../node_modules/express';
-import { CommonRoutesConfig } from '../common/common.routes.config';
+import express from 'express';
+import { CommonRoutesConfig } from './common.routes.config';
 
 export class UsersRoutes extends CommonRoutesConfig {
     constructor(app: express.Application) {
