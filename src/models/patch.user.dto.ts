@@ -1,3 +1,15 @@
-import { PutUserDto } from './put.user.dto';
-// Adding PutUserDto as a partial Type gives it the same features.
-export interface PatchUserDto extends Partial<PutUserDto> {}
+// PUT or UPDATE
+export class PatchUserDto {
+    constructor(
+      public id: string,
+      public updatedAt: number = Date.now(),
+      public createdAt: number,
+      public email: string,
+      public firstName: string,
+      public lastName: string,
+      public permissionLevel: number,
+      public password?: string,
+    ) {
+
+    }
+}
