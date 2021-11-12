@@ -1,4 +1,5 @@
-import express from 'express';
+import express = require('express');
+
 export abstract class CommonRoutesConfig {
     app: express.Application;
     name: string;
@@ -8,8 +9,8 @@ export abstract class CommonRoutesConfig {
         this.name = name;
         this.configureRoutes();
     }
-    getName() {
-        return this.name;
-    }
+
+    getName = (): string => this.name;
+
     abstract configureRoutes(): express.Application;
 }

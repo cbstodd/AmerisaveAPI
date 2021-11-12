@@ -2,11 +2,12 @@
   "name": "ts-api-server",
   "version": "0.0.1",
   "description": "Basic TypeScript/Node, ExpressJS, and MongoDB app with login and messaging dashboard",
-  "main": "dist/index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "build": "tsc ./src/app.ts ./dist/",
-    "start": "npm run build && nodemon ./dist/index.js",
-    "test": "test"
+    "build": "tsc src/app.ts --outDir dist/",
+    "start": "npm run build && nodemon --unhandled-rejections=strict ./dist/app.js",
+    "debug": "export DEBUG=* && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
