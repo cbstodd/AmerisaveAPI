@@ -1,7 +1,5 @@
 # tsRESTapi
 
-------
-
 ### To setup:
 
 Open up your terminal and clone the project:
@@ -18,11 +16,12 @@ Install dependencies:
 
     npm install
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
+============================================================================
 
-======================================
-======================================
 
 ### About Author:
 
@@ -39,8 +38,8 @@ Install dependencies:
 Front-End developer with experience working with full stack via Rails and Node.
 </p>
 
-======================================
-======================================
+
+============================================================================
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -59,6 +58,6 @@ Front-End developer with experience working with full stack via Rails and Node.
 
 #### This project is licensed under the [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0.html) license:
 <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank" title="Apache-2.0 license">
-<img src="https://th.bing.com/th/id/R.dbbb60ad98c26c49d0f9e7b5fe72d20f?rik=Ywy9a%2bxLDxwXFg&riu=http%3a%2f%2fwww.iddfestivalrotterdam.nl%2fmanual%2fimages%2ffeather.png&ehk=XDMzg5qLTHxjJB50E1OSJg51OgwvRZAcOi1v93Do3zg%3d&risl=&pid=ImgRaw&r=0" alt="Apache-2.0 license" style="max-width:200px;" />
+<img src="https://th.bing.com/th/id/R.dbbb60ad98c26c49d0f9e7b5fe72d20f?rik=Ywy9a%2bxLDxwXFg&riu=http%3a%2f%2fwww.iddfestivalrotterdam.nl%2fmanual%2fimages%2ffeather.png&ehk=XDMzg5qLTHxjJB50E1OSJg51OgwvRZAcOi1v93Do3zg%3d&risl=&pid=ImgRaw&r=0" alt="Apache-2.0 license" style="width:150px;max-width:200px;" />
 </a>
 
